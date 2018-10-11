@@ -1,0 +1,13 @@
+{
+  "extends": ["plugin:es5/no-es2015", "prettier"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "plugins": ["prettier", "es5"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
