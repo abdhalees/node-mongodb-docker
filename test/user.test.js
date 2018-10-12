@@ -7,7 +7,7 @@ var should = chai.should();
 
 chai.use(chaiHttp);
 
-describe('Workspaces', function() {
+describe('Users', function() {
   before(function() {
     database = require('../config/database');
   });
