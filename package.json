@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format && npm run lint && npm run detect && docker-compose exec app npm run test"
+      "pre-commit": "npm run format && npm run lint && npm run detect && docker-compose exec -T app npm run test"
     }
   },
   "author": "",
